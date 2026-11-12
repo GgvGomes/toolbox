@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate tools and taxonomy
+        run: node bin/toolbox.mjs validate
+      - name: Generated files are up to date
+        run: node bin/toolbox.mjs build --check
+      - name: Tests
+        run: npm test
+      - name: No local paths committed
+        run: |
+          if grep -rEn '"(/Users/|/home/|[A-Z]:\\\\)' tools/; then
+            echo "::error::tools/*.json must not contain local paths — use 'toolbox link' instead"
+            exit 1
+          fi

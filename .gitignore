@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+*.log
+# Local Links never belong in the repo (they live in ~/.config/toolbox/)
+local.json
+*.local.json

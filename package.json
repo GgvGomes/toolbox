@@ -1,0 +1,22 @@
+{
+  "name": "toolbox",
+  "version": "0.1.0",
+  "description": "Personal, searchable catalog of external tools — organized by category, kind and tags, usable by humans and AI agents (Claude Code plugin).",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "bin": {
+    "toolbox": "bin/toolbox.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "search": "node bin/toolbox.mjs search",
+    "validate": "node bin/toolbox.mjs validate",
+    "build": "node bin/toolbox.mjs build",
+    "check": "node bin/toolbox.mjs validate && node bin/toolbox.mjs build --check",
+    "check-links": "node bin/toolbox.mjs check-links",
+    "test": "node --test test/*.test.mjs"
+  }
+}

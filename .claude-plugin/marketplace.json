@@ -1,0 +1,15 @@
+{
+  "name": "toolbox",
+  "description": "Curated, searchable catalog of external tools for humans and AI agents.",
+  "owner": {
+    "name": "GgvGomes"
+  },
+  "plugins": [
+    {
+      "name": "toolbox",
+      "source": "./",
+      "description": "Search a curated catalog of external tools by category, kind and tags.",
+      "version": "0.1.0"
+    }
+  ]
+}
