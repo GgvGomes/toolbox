@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/tool.schema.json",
+  "slug": "wispr-flow",
+  "name": "Wispr Flow",
+  "description": "AI voice-to-text dictation that turns speech into clean, polished writing in any app (removes filler words, fixes grammar); also an AI meeting notetaker.",
+  "reference": "https://wisprflow.ai/",
+  "kind": "app",
+  "categories": ["ai", "productivity", "media"],
+  "tags": ["voice-to-text", "speech-to-text", "dictation", "transcription", "notetaker", "voice-typing"],
+  "notes": "Desktop and mobile: Mac, Windows, iPhone, Android. Free tier available. Good for dictating prompts to AI agents instead of typing.",
+  "added": "2026-11-12"
+}
