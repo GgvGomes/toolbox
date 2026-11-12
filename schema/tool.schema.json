@@ -70,10 +70,12 @@
           "docs",
           "design",
           "observability",
-          "mobile"
+          "mobile",
+          "payments",
+          "media"
         ]
       },
-      "description": "ai: Artificial intelligence, LLMs, agents, prompting and machine-learning tooling.\nsecurity: Vulnerability and code scanning, secrets detection, supply-chain security, auth hardening and pentesting.\ndevops: CI/CD, infrastructure as code, containers, deployment and cloud operations.\nfrontend: Web UI frameworks, components, styling and browser tooling.\nbackend: Servers, APIs, runtimes, queues and server-side frameworks.\ndatabase: Databases, ORMs, migrations, query tools and data storage.\nproductivity: Personal workflow, automation, terminal and editor enhancements.\ntesting: Unit, integration, end-to-end and load testing, QA and test data.\ndocs: Documentation generation, technical writing and knowledge bases.\ndesign: Visual design, UI kits, icons, fonts and prototyping.\nobservability: Logging, metrics, tracing, monitoring and error tracking.\nmobile: iOS, Android and cross-platform mobile development."
+      "description": "ai: Artificial intelligence, LLMs, agents, prompting and machine-learning tooling.\nsecurity: Vulnerability and code scanning, secrets detection, supply-chain security, auth hardening and pentesting.\ndevops: CI/CD, infrastructure as code, containers, cloud hosting and servers, deployment and operations.\nfrontend: Web UI frameworks, components, styling and browser tooling.\nbackend: Servers, APIs, runtimes, queues and server-side frameworks.\ndatabase: Databases, ORMs, migrations, query tools and data storage.\nproductivity: Personal workflow, automation, terminal and editor enhancements.\ntesting: Unit, integration, end-to-end and load testing, QA and test data.\ndocs: Documentation generation, technical writing and knowledge bases.\ndesign: Visual design, UI kits, icons, fonts and prototyping.\nobservability: Logging, metrics, tracing, monitoring and error tracking.\nmobile: iOS, Android and cross-platform mobile development.\npayments: Payment gateways, checkout, card processing, Pix, boleto, subscriptions and billing.\nmedia: Audio, voice, video and image generation, editing and processing."
     },
     "tags": {
       "type": "array",

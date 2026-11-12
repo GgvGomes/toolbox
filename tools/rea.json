@@ -1,0 +1,13 @@
+{
+  "$schema": "../schema/tool.schema.json",
+  "slug": "rea",
+  "name": "REA — Reverse Engineer Anything",
+  "description": "MCP server and CLI that lets AI agents reverse engineer apps without source: native binaries, JavaScript/Electron, .NET and websites, with evidence for each finding.",
+  "reference": "https://github.com/morluto/rea",
+  "kind": "mcp-server",
+  "categories": ["security", "ai"],
+  "tags": ["reverse-engineering", "binary-analysis", "decompiler", "electron", "dotnet", "ghidra", "claude-code"],
+  "install": "npx rea-agents setup",
+  "notes": "Setup registers the MCP server with Claude Code, Codex, Cursor, Gemini CLI and others. Native analysis reuses an existing Hopper, Ghidra, IDA or Kuna install; static JS analysis needs none. Runs locally. Site: https://rea.tools/",
+  "added": "2026-11-12"
+}

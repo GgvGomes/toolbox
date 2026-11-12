@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/tool.schema.json",
+  "slug": "awesome-claude-design",
+  "name": "Awesome Claude Design",
+  "description": "68 ready-to-use design system inspirations in DESIGN.md format; drop one into a project so Claude or another agent scaffolds a consistent UI in one shot.",
+  "reference": "https://github.com/VoltAgent/awesome-claude-design",
+  "kind": "resource",
+  "categories": ["design", "frontend", "ai"],
+  "tags": ["design-md", "design-system", "inspiration", "ui", "claude-design", "awesome-list"],
+  "notes": "DESIGN.md = tokens, rules and rationale in one markdown file for design agents (like AGENTS.md for looks). Files are inspirations, not official brand systems.",
+  "added": "2026-11-12"
+}

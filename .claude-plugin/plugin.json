@@ -1,11 +1,17 @@
 {
   "name": "toolbox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Search a curated catalog of external tools by category, kind and tags; maintainers can add tools and record where they live locally.",
   "author": {
     "name": "GgvGomes"
   },
   "repository": "https://github.com/GgvGomes/toolbox",
   "license": "MIT",
-  "keywords": ["toolbox", "catalog", "tools", "search", "awesome-list"]
+  "keywords": [
+    "toolbox",
+    "catalog",
+    "tools",
+    "search",
+    "awesome-list"
+  ]
 }

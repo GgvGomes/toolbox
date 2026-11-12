@@ -2,7 +2,7 @@
   "categories": [
     { "id": "ai", "name": "AI", "description": "Artificial intelligence, LLMs, agents, prompting and machine-learning tooling." },
     { "id": "security", "name": "Security", "description": "Vulnerability and code scanning, secrets detection, supply-chain security, auth hardening and pentesting." },
-    { "id": "devops", "name": "DevOps", "description": "CI/CD, infrastructure as code, containers, deployment and cloud operations." },
+    { "id": "devops", "name": "DevOps", "description": "CI/CD, infrastructure as code, containers, cloud hosting and servers, deployment and operations." },
     { "id": "frontend", "name": "Frontend", "description": "Web UI frameworks, components, styling and browser tooling." },
     { "id": "backend", "name": "Backend", "description": "Servers, APIs, runtimes, queues and server-side frameworks." },
     { "id": "database", "name": "Database", "description": "Databases, ORMs, migrations, query tools and data storage." },
@@ -11,7 +11,9 @@
     { "id": "docs", "name": "Docs", "description": "Documentation generation, technical writing and knowledge bases." },
     { "id": "design", "name": "Design", "description": "Visual design, UI kits, icons, fonts and prototyping." },
     { "id": "observability", "name": "Observability", "description": "Logging, metrics, tracing, monitoring and error tracking." },
-    { "id": "mobile", "name": "Mobile", "description": "iOS, Android and cross-platform mobile development." }
+    { "id": "mobile", "name": "Mobile", "description": "iOS, Android and cross-platform mobile development." },
+    { "id": "payments", "name": "Payments", "description": "Payment gateways, checkout, card processing, Pix, boleto, subscriptions and billing." },
+    { "id": "media", "name": "Media", "description": "Audio, voice, video and image generation, editing and processing." }
   ],
   "kinds": [
     { "id": "cli", "name": "CLI", "description": "Command-line tool run from a terminal." },

@@ -2,8 +2,8 @@
   "version": 1,
   "generatedBy": "npm run build — do not edit by hand",
   "counts": {
-    "tools": 0,
-    "categories": 12,
+    "tools": 8,
+    "categories": 14,
     "kinds": 8
   },
   "taxonomy": {
@@ -21,7 +21,7 @@
       {
         "id": "devops",
         "name": "DevOps",
-        "description": "CI/CD, infrastructure as code, containers, deployment and cloud operations."
+        "description": "CI/CD, infrastructure as code, containers, cloud hosting and servers, deployment and operations."
       },
       {
         "id": "frontend",
@@ -67,6 +67,16 @@
         "id": "mobile",
         "name": "Mobile",
         "description": "iOS, Android and cross-platform mobile development."
+      },
+      {
+        "id": "payments",
+        "name": "Payments",
+        "description": "Payment gateways, checkout, card processing, Pix, boleto, subscriptions and billing."
+      },
+      {
+        "id": "media",
+        "name": "Media",
+        "description": "Audio, voice, video and image generation, editing and processing."
       }
     ],
     "kinds": [
@@ -112,5 +122,180 @@
       }
     ]
   },
-  "tools": []
+  "tools": [
+    {
+      "slug": "abacatepay",
+      "name": "AbacatePay",
+      "description": "Brazilian payment gateway for Pix and boleto with a flat fee per transaction, no monthly fee, simple API, 15+ SDKs and an llms.txt for AI-assisted integration.",
+      "reference": "https://www.abacatepay.com/",
+      "kind": "service",
+      "categories": [
+        "payments"
+      ],
+      "tags": [
+        "pix",
+        "boleto",
+        "gateway",
+        "api",
+        "sdk",
+        "llms-txt",
+        "brazil"
+      ],
+      "notes": "Preferred for non-card payments. Advertised pricing (Nov 2026): R$0.80 flat per Pix, R$2.50 per paid boleto, no monthly fee. Point an agent at https://www.abacatepay.com/llms.txt to integrate.",
+      "added": "2026-11-12"
+    },
+    {
+      "slug": "ai-engineering-from-scratch",
+      "name": "AI Engineering from Scratch",
+      "description": "Free open curriculum to learn AI engineering end to end: math, classical ML, deep learning, transformers, LLMs and agents, with runnable lessons, quizzes and books.",
+      "reference": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "kind": "resource",
+      "categories": [
+        "ai"
+      ],
+      "tags": [
+        "course",
+        "learning",
+        "machine-learning",
+        "llm",
+        "deep-learning",
+        "curriculum"
+      ],
+      "notes": "20-phase core curriculum, also compiled into a six-volume EPUB/PDF book series attached to each GitHub release.",
+      "added": "2026-11-12"
+    },
+    {
+      "slug": "appmax",
+      "name": "Appmax",
+      "description": "Brazilian online payment gateway for e-commerce focused on credit card conversion: optimized checkout, Pix, subscriptions, split payments and native Shopify integration.",
+      "reference": "https://appmax.com.br/",
+      "kind": "service",
+      "categories": [
+        "payments"
+      ],
+      "tags": [
+        "credit-card",
+        "checkout",
+        "gateway",
+        "pix",
+        "subscriptions",
+        "split-payment",
+        "shopify",
+        "brazil"
+      ],
+      "notes": "Preferred for card payments. Advertised rates (Nov 2026): 3.49% credit card, 0.99% Pix, decreasing with volume; payout in up to one day. Supports Apple Pay / Google Pay.",
+      "added": "2026-11-12"
+    },
+    {
+      "slug": "awesome-claude-design",
+      "name": "Awesome Claude Design",
+      "description": "68 ready-to-use design system inspirations in DESIGN.md format; drop one into a project so Claude or another agent scaffolds a consistent UI in one shot.",
+      "reference": "https://github.com/VoltAgent/awesome-claude-design",
+      "kind": "resource",
+      "categories": [
+        "design",
+        "frontend",
+        "ai"
+      ],
+      "tags": [
+        "design-md",
+        "design-system",
+        "inspiration",
+        "ui",
+        "claude-design",
+        "awesome-list"
+      ],
+      "notes": "DESIGN.md = tokens, rules and rationale in one markdown file for design agents (like AGENTS.md for looks). Files are inspirations, not official brand systems.",
+      "added": "2026-11-12"
+    },
+    {
+      "slug": "awesome-opus5-5-videos",
+      "name": "Awesome Opus 5.5 Videos",
+      "description": "Curated collection of viral videos and animations made with Claude Opus 5.5 plus the exact prompts behind them; reference for AI-generated video, motion graphics and WebGL.",
+      "reference": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "kind": "resource",
+      "categories": [
+        "media",
+        "ai"
+      ],
+      "tags": [
+        "video",
+        "video-editing",
+        "prompts",
+        "motion-graphics",
+        "animation",
+        "webgl",
+        "claude",
+        "awesome-list"
+      ],
+      "notes": "Each entry links the original next to a live remake on Skillry. Prompts live in the prompts/ folder.",
+      "added": "2026-11-12"
+    },
+    {
+      "slug": "elevenlabs",
+      "name": "ElevenLabs",
+      "description": "AI audio platform and API: realistic text-to-speech, voice cloning, voice changer, sound effects, music, speech-to-text and conversational voice agents.",
+      "reference": "https://elevenlabs.io/",
+      "kind": "service",
+      "categories": [
+        "ai",
+        "media"
+      ],
+      "tags": [
+        "tts",
+        "text-to-speech",
+        "voice",
+        "voice-cloning",
+        "speech-to-text",
+        "voice-agents",
+        "sound-effects",
+        "api"
+      ],
+      "notes": "Developer API covers TTS, speech-to-speech, cloning, sound effects and Conversational AI agents. Has a free tier.",
+      "added": "2026-11-12"
+    },
+    {
+      "slug": "locaweb-cloud",
+      "name": "Locaweb Cloud",
+      "description": "Brazilian cloud infrastructure (IaaS): scalable, easy cloud servers hosted in Brazil, billed in reais with post-paid pricing, aimed at SMBs and developers.",
+      "reference": "https://www.locaweb.com.br/locaweb-cloud/",
+      "kind": "service",
+      "categories": [
+        "devops"
+      ],
+      "tags": [
+        "cloud",
+        "iaas",
+        "vps",
+        "servers",
+        "hosting",
+        "brazil"
+      ],
+      "notes": "Launched March 2026. Promo seen Nov 2026: up to R$100 credit on the first invoice for new customers.",
+      "added": "2026-11-12"
+    },
+    {
+      "slug": "rea",
+      "name": "REA — Reverse Engineer Anything",
+      "description": "MCP server and CLI that lets AI agents reverse engineer apps without source: native binaries, JavaScript/Electron, .NET and websites, with evidence for each finding.",
+      "reference": "https://github.com/morluto/rea",
+      "kind": "mcp-server",
+      "categories": [
+        "security",
+        "ai"
+      ],
+      "tags": [
+        "reverse-engineering",
+        "binary-analysis",
+        "decompiler",
+        "electron",
+        "dotnet",
+        "ghidra",
+        "claude-code"
+      ],
+      "install": "npx rea-agents setup",
+      "notes": "Setup registers the MCP server with Claude Code, Codex, Cursor, Gemini CLI and others. Native analysis reuses an existing Hopper, Ghidra, IDA or Kuna install; static JS analysis needs none. Runs locally. Site: https://rea.tools/",
+      "added": "2026-11-12"
+    }
+  ]
 }

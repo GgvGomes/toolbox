@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/tool.schema.json",
+  "slug": "appmax",
+  "name": "Appmax",
+  "description": "Brazilian online payment gateway for e-commerce focused on credit card conversion: optimized checkout, Pix, subscriptions, split payments and native Shopify integration.",
+  "reference": "https://appmax.com.br/",
+  "kind": "service",
+  "categories": ["payments"],
+  "tags": ["credit-card", "checkout", "gateway", "pix", "subscriptions", "split-payment", "shopify", "brazil"],
+  "notes": "Preferred for card payments. Advertised rates (Nov 2026): 3.49% credit card, 0.99% Pix, decreasing with volume; payout in up to one day. Supports Apple Pay / Google Pay.",
+  "added": "2026-11-12"
+}

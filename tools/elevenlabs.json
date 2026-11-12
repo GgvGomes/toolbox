@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/tool.schema.json",
+  "slug": "elevenlabs",
+  "name": "ElevenLabs",
+  "description": "AI audio platform and API: realistic text-to-speech, voice cloning, voice changer, sound effects, music, speech-to-text and conversational voice agents.",
+  "reference": "https://elevenlabs.io/",
+  "kind": "service",
+  "categories": ["ai", "media"],
+  "tags": ["tts", "text-to-speech", "voice", "voice-cloning", "speech-to-text", "voice-agents", "sound-effects", "api"],
+  "notes": "Developer API covers TTS, speech-to-speech, cloning, sound effects and Conversational AI agents. Has a free tier.",
+  "added": "2026-11-12"
+}

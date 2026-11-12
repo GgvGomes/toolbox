@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/tool.schema.json",
+  "slug": "locaweb-cloud",
+  "name": "Locaweb Cloud",
+  "description": "Brazilian cloud infrastructure (IaaS): scalable, easy cloud servers hosted in Brazil, billed in reais with post-paid pricing, aimed at SMBs and developers.",
+  "reference": "https://www.locaweb.com.br/locaweb-cloud/",
+  "kind": "service",
+  "categories": ["devops"],
+  "tags": ["cloud", "iaas", "vps", "servers", "hosting", "brazil"],
+  "notes": "Launched March 2026. Promo seen Nov 2026: up to R$100 credit on the first invoice for new customers.",
+  "added": "2026-11-12"
+}

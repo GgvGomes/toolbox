@@ -11,7 +11,7 @@ A personal, curated **catalog of external tools**. Every tool is tagged with a C
 | Term | Meaning |
 |---|---|
 | **Tool** | One entry: a public **Reference** (URL) plus a description |
-| **Category** | Domain, one or more per tool: `ai`, `security`, `devops`, `frontend`, `backend`, `database`, `productivity`, `testing`, `docs`, `design`, `observability`, `mobile` |
+| **Category** | Domain, one or more per tool: `ai`, `security`, `devops`, `frontend`, `backend`, `database`, `productivity`, `testing`, `docs`, `design`, `observability`, `mobile`, `payments`, `media` |
 | **Kind** | Format, exactly one per tool: `cli`, `library`, `app`, `service`, `mcp-server`, `claude-plugin`, `extension`, `resource` |
 | **Tag** | Free label for finer search (`sast`, `scanner`, …) |
 | **Local Link** | Where the tool already lives on *your* machine. Stored in `~/.config/toolbox/local.json` and **never committed** |

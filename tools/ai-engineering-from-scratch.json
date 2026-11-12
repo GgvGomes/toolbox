@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/tool.schema.json",
+  "slug": "ai-engineering-from-scratch",
+  "name": "AI Engineering from Scratch",
+  "description": "Free open curriculum to learn AI engineering end to end: math, classical ML, deep learning, transformers, LLMs and agents, with runnable lessons, quizzes and books.",
+  "reference": "https://github.com/rohitg00/ai-engineering-from-scratch",
+  "kind": "resource",
+  "categories": ["ai"],
+  "tags": ["course", "learning", "machine-learning", "llm", "deep-learning", "curriculum"],
+  "notes": "20-phase core curriculum, also compiled into a six-volume EPUB/PDF book series attached to each GitHub release.",
+  "added": "2026-11-12"
+}
