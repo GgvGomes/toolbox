@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/tool.schema.json",
+  "slug": "designeer",
+  "name": "Designeer",
+  "description": "Hand-curated design inspiration gallery for distinctive, non-generic UI: interfaces, motion, 3D, typography, branding, landing pages, dashboards, mobile apps, plus component libraries, AI design tools and portfolios.",
+  "reference": "https://designeer.xyz/",
+  "kind": "resource",
+  "categories": ["design", "frontend"],
+  "tags": ["inspiration", "ui-inspiration", "gallery", "landing-page", "motion", "typography", "branding", "portfolio", "component-library", "moodboard"],
+  "notes": "Free to browse; filter by type (Interface, Motion, 3D, Typography, Logo, Game UI...) and colour. Curated by Dhruv Jaradi. Good for references before designing a page.",
+  "added": "2026-11-16"
+}

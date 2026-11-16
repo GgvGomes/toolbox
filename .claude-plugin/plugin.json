@@ -1,6 +1,6 @@
 {
   "name": "toolbox",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Search a curated catalog of external tools by category, kind and tags; maintainers can add tools and record where they live locally.",
   "author": {
     "name": "GgvGomes"

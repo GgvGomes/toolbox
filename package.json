@@ -1,6 +1,6 @@
 {
   "name": "toolbox",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Personal, searchable catalog of external tools — organized by category, kind and tags, usable by humans and AI agents (Claude Code plugin).",
   "type": "module",
   "private": true,

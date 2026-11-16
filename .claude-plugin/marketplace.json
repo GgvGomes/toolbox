@@ -9,7 +9,7 @@
       "name": "toolbox",
       "source": "./",
       "description": "Search a curated catalog of external tools by category, kind and tags.",
-      "version": "0.1.2"
+      "version": "0.1.3"
     }
   ]
 }
